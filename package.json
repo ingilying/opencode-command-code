@@ -1,0 +1,24 @@
+{
+  "name": "opencode-command-code",
+  "version": "0.1.0",
+  "description": "OpenCode plugin that adds a Command Code provider using your Command Code API key",
+  "type": "module",
+  "exports": {
+    ".": "./index.ts"
+  },
+  "files": [
+    "index.ts",
+    "README.md"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@opencode/plugin": "^2.0.18"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.8.2"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  }
+}
